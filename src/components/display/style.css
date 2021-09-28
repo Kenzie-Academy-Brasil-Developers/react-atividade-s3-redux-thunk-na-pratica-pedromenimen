@@ -1,0 +1,28 @@
+.displayContainer {
+    background-color: crimson;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.displayContainer button, .displayContainer input{
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.userHandleContainer {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.textContainer p {
+    background-color: gray;
+    border-radius: 15px 0 15px 15px;
+    padding: 0 5px 5px 5px;
+    margin: 5px;
+    flex-wrap: nowrap;
+}
